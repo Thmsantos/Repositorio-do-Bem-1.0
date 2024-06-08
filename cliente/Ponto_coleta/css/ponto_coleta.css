@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*pagina inteira*/
+.container {
+    max-width: 1430px; /* container de dentro */
+    margin: auto;
+    background-color: white; /* container de dentro */
+    margin-right: 100px;
+    margin-left: 100px;
+    color: black; /* cor das letras */
+    margin-left: px
+
+}
+
+
+h1,
+
+h2 {
+    text-align: center; /* Titulos */
+    margin: 60px;
+    margin-bottom: 43px; /* Ajuste a quantidade de espaço conforme necessário */
+    
+    }
+
+    .text {
+        margin-top: 10px; /* Adicione o espaçamento desejado acima do texto */
+    }
+    
+
+.box-right {
+    width: 100%; /* mapa Ajuste conforme necessário */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 390px; /* mapa Ajuste do mapa conforme necessário */
+}
+
+
+
+.content { /* separando o mapa da parte de baixo */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.box-left {
+    width: 850%; /* container com os endereço */
+    padding: 20px;
+    background-color: white; /* Ajuste para a cor desejada */
+    border-radius: 15px;
+}
+
+    h3 { /* titulo */
+        color: #FFD100;
+        margin-top: 30px;
+           
+}
+
+/*bolinhas*/
+
+
+
+.bolas-centralizadas {
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+.img-bola{
+    margin-left:1%;
+    width: 50%;
+
+}
+
+  
+  .bola {   /* tamanho das bolinhas*/
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #FFD100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  #textos-centralizados {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13px; /* Espaço entre as bolas e os textos */
+  }
+  
+  #textos-centralizados p {
+    font-size: 15px;
+  }
+  
+
+header {
+    display: flex; /* Use flexbox para alinhar itens */
+    justify-content: space-between; /* Alinhe os itens para ocupar todo o espaço disponível */
+    align-items: center; /* Alinhe verticalmente os itens ao centro */
+    margin-bottom: 20px; /* Adicione margem inferior para separar do conteúdo abaixo */
+}
+
+.navbar {   /* cabeçalho*/
+    z-index:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    background-color: #FFD100;
+    
+}
+
+.img-icone{
+    margin-top: 5px;
+    margin-right: 95%;
+    width: 35px;
+    height: 35px;
+}
+
+.img-logo{
+    margin-top: -33px;
+    margin-right: -95%;
+    width: 35px;
+    height: 35px;
+
+  /*  left: 1430px;
+    top:45px;*/
+}
+
+
+/* TEXTO DAS BOLINHAS */
+
+
+#bl1{
+    padding-left: 10px;
+}
+
+
+#bl2{
+    padding-right: 20px;
+}
+
+#bl3{
+    padding-right: 40px;
+}
+  
+    

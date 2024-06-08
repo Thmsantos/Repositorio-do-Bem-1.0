@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="corpo">
+        <div id="esquerda"></div>
+
+        <div id="direita">
+
+            <div id="inputinhos">
+                <div class="input-box">
+                    <img src="img/NOME.png" alt="Nome">
+                    <input name="NOME" type="text" class="nome" placeholder="Nome" required />
+                </div>
+                <div class="input-box">
+                    <img src="img/EMAIL.png" alt="email">
+                    <input name="email" type="text" class="email" placeholder="E-mail" required />
+                </div>
+                <div class="input-box">
+                    <img src="img/CNPJ.png" alt="cnpj">
+                    <input name="cnpj" type="TEXT" class="cnpj" maxlength="15" placeholder="CNPJ" required />
+                </div>
+                <div class="input-box">
+                    <img src="img/CEP.png" alt="cep">
+                    <input type="text" name="cep" class="cep" maxlength="9" pattern="\d{5}-?\d{3}" placeholder="CEP"
+                        required />
+                </div>
+                <div class="input-box">
+                    <img src="img/SENHA.png" alt="senha">
+                    <input name="senha" type="password" class="senha" placeholder="Senha" required />
+                </div>
+            </div>
+            <div id="btn">
+                <button onclick="cadastrar(event)" type="submit">Cadastre-se</button>
+                <a href="../login/login.html">Já possui uma conta?</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="custom-alert" class="custom-alert">
+        <span id="custom-alert-message" class="custom-alert-message"></span>
+        <button onclick="closeCustomAlert()">Fechar</button>
+    </div>
+
+    <script src="./cadastro.js"></script>
+</body>
+
+</html>
