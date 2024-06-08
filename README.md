@@ -11,3 +11,29 @@
 <h4 style="text-align:center;">
   A proposta do software é um sistema de estoque para o gerenciamento das doações recebidas, trazendo mais segurança e credibilidade a esse processo. É dessa forma que o grupo busca contribuir com esse objetivo da ODS.
 </h4>
+
+<h2 style="text-align:center;">ITENS NECESSÁRIOS</h2>
+<h5>
+    <ul>
+        <li>Maven - 3.9.6</li>
+        <li>JAVA - 22</li>
+        <li>MONGODB - 4.00</li>
+    </ul>
+</h5>
+
+<h2 style="text-align:center;">TECNOLOGIAS UTILIZADAS</h2>
+<h5>
+    <ul>
+        <li>IntelliJ</li>
+        <li>Vs Code</li>
+        <li>HTML & CSS</li>
+        <li>Javascript</li>
+        <li>Java</li>
+        <li>MongoDB</li>
+        <li>SPRING FRAMEWORK</li>
+        <li>Thunder Client</li>
+    </ul>
+</h5>
+
+
+<h2 style="text-align:center;">INSTALAÇÃO</h2>
