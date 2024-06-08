@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    background-color: #FFD100;
+    height: 35px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#menu-list {
+    display: none;
+}
+
+#menu-list.expandir {
+    width: 250px;
+    list-style: none;
+    left: 0;
+    display: block;
+    position: absolute;
+}
+
+.item {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 0 10px;
+    display: flex;
+}
+
+.circle {
+    width: 30px;
+    height: 25px;
+    background-color: #FFD100;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    margin: 12px 15px 0 0;
+}
+
+.txt {
+    border-radius: 50px;
+    border: 1px solid #BFBFBF;
+    padding: 2px 5px 2px 5px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 2px 0 0 #BFBFBF;
+    background-color: #fff;
+}
+
+.txt:hover {
+    transition: 0.35s;
+    transform: scale(0.9);
+}
+
+#user-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px 20px 0 0;
+    cursor: pointer;
+}
+
+#perfil-list {
+    display: none;
+}
+
+#perfil-list.expand {
+    position: absolute;
+    right: 0;
+    margin: 10px 10px 0 0;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    display: block;
+    border-radius: 30px;
+    border: 1px solid #BFBFBF;
+    align-items: center;
+    text-align: center;
+}
+
+#line {
+    padding: 2px 5px 2px 5px;
+}
+
+/* styles.css */
+#status-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#status-text {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#status-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* Indicador de offline */
+}
+
+.online {
+    background-color: green;
+}
+
+.ausente {
+    background-color: yellow;
+}
+
+.offline {
+    background-color: red;
+}
+
+
+#menu-btn {
+    cursor: pointer;
+}
+
+#sec-1 {
+    margin: 100px;
+}
+
+#head-div {
+    display: inline-flex;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#div-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#box-busca {
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#busca {
+    border-radius: 50px 0 0 50px;
+    border: solid #FFD100;
+    padding: 5px;
+    height: 20px;
+    width: 350px;
+}
+
+#btn-busca {
+    color: black;
+    font-weight: 600;
+    border-radius: 0 50px 50px 0;
+    padding: 6px;
+    margin: 0;
+    height: 22px;
+    border-style: none;
+    background-color: #FFD100;
+    cursor: pointer;
+}
+
+#btn-add {
+    background-color: #FFD100;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#div-table {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+
+/*\configurações da tabela*/
+th {
+    align-items: center;
+    height: 0px;
+    border: #fff;
+    font-size: 20px;
+}
+
+td {
+    font-size: 22px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.icon-th {
+    margin-right: 2px;
+}
+
+th,
+tbody {
+    border-left: none;
+    border-right: none;
+}
+
+.action {
+    background-color: #FFD100;
+    color: black;
+    font-weight: 600;
+    border: none;
+    height: 27px;
+    width: 150px;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    background-color: #FFD100;
+}
+
+/*modal*/
+.container-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#modal {
+    width: 30%;
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    display: none;
+    box-shadow: 5px 5px 5px #BFBFBF;
+    position: fixed;
+    top: 0;
+    margin-top: 5%;
+}
+
+.color {
+    background-color: #FFD100;
+    height: 50px;
+    border-radius: 40px 40px 0 0;
+}
+
+.div-inputs {
+    background-color: #ffff;
+    border-radius: 0 0 40px 40px;
+    padding: 20px 20px 20px 20px;
+}
+
+.input {
+    background-color: #F1EFEF;
+    border-radius: 20px;
+    border-style: none;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 2px;
+    width: 65%;
+    height: 25px;
+}
+
+#btn-adc {
+    border-radius: 20px;
+    background-color: #FFD100;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    border-style: none;
+    width: 40%;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.div-btn {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Modal de doação*/
+#modal-doacao {
+    width: 30%;
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px #BFBFBF;
+    position: fixed;
+    display: none;
+    top: 0;
+    margin-top: 5%;
+}
+
+#btn-doar {
+    border-radius: 20px;
+    background-color: #FFD100;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    border-style: none;
+    width: 40%;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.close-doacao {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.close-doacao:hover,
+.close-doacao:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grafico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+}
