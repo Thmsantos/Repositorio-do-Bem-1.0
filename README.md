@@ -37,11 +37,35 @@
 
 
 <h2 style="text-align:center;">INSTALAÇÃO</h2>
-<p>Faça o download</p>
+<p>Faça o download:</p>
 <img src="./images/download.png">
 
-<p>Extraia os arquivos</p>
+
+<h2 style="text-align:center;">EXECUÇÃO</h2>
+<p>Extraia os arquivos:</p>
 <img src="./images/extrair.png">
 
 <p>Pasta extraida:</p>
 <img src="./images/extraido.png">
+
+<p>Abra o prompt de comando da pasta</p>
+<img src="./images/cmdAberto.png">
+
+<p>
+  digite os seguintes comandos:
+  <ul>
+    <li>cd Servidor -> (entra na pasta do servidor)</li>
+    <li>cd RepositorioDoBem -> (entra no servidor)</li>
+    <img src="./images/comandosDeLocalizacao.png">
+    <li>mvn spring-boot:run -> (executa o servidor)</li>
+    <img src="./images/resComandos.png">
+  <ul>
+
+</p>
+
+<p>Após executar o servidor, abra a pasta "cliente"</p>
+<img src="./images/clienteFolder.png">
+
+<p>Abra a pasta "Home"</p>
+<img src="./images/homeFolder.png">
+
