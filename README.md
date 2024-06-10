@@ -84,6 +84,9 @@
 <img src="./images/homePage.png">
 
 
+<h2>Para receptores e doadores</h2>
+<img src="./images/HomeDoar-receber.png">
 
-
+<p>Pontos de coleta e doação no mapa e legendados</p>
+<img src="./images/pontosColetaPage.png">
 
