@@ -90,3 +90,6 @@
 <p>Pontos de coleta e doação no mapa e legendados</p>
 <img src="./images/pontosColetaPage.png">
 
+
+<h2>Para empresas</h2>
+<img src="./images/HomeSouEmpresa.png">
