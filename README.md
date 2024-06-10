@@ -13,7 +13,7 @@
 </h4>
 
 <h2 style="text-align:center;">ITENS NECESSÁRIOS</h2>
-<h5 style="text-align:center;">
+<h5>
     <ul>
         <li>Maven - 3.9.6</li>
         <li>JAVA - 22</li>
@@ -22,7 +22,7 @@
 </h5>
 
 <h2 style="text-align:center;">TECNOLOGIAS UTILIZADAS</h2>
-<h5 style="text-align:center;">
+<h5>
     <ul>
         <li>IntelliJ</li>
         <li>Vs Code</li>
@@ -37,34 +37,53 @@
 
 
 <h2 style="text-align:center;">INSTALAÇÃO</h2>
-<p style="text-align:center;">Faça o download:</p>
-<img src="./images/download.png" style="display:block;margin:auto;">
+<p>Faça o download:</p>
+<img src="./images/download.png">
 
 
 <h2 style="text-align:center;">EXECUÇÃO</h2>
-<p style="text-align:center;">Extraia os arquivos:</p>
-<img src="./images/extrair.png" style="display:block;margin:auto;">
 
-<p style="text-align:center;">Pasta extraida:</p>
-<img src="./images/extraido.png" style="display:block;margin:auto;">
+<h4>Abrindo o Banco de Dados</h4>
 
-<p style="text-align:center;">Abra o prompt de comando da pasta</p>
-<img src="./images/cmdAberto.png" style="display:block;margin:auto;">
+<p>Abra o mongoDB</p>
+<img src="./images/mongoApp.png">
 
-<p style="text-align:center;">
+<p>Faça a conexão</p>
+<img src="./images/mongoConnect.png">
+
+<h4>Rodando o servidor</h4>
+
+<p>Extraia os arquivos:</p>
+<img src="./images/extrair.png">
+
+<p>Pasta extraida:</p>
+<img src="./images/extraido.png">
+
+<p>Abra o prompt de comando da pasta</p>
+<img src="./images/cmdAberto.png">
+
+<p>
   digite os seguintes comandos:
-  <ul style="text-align:center;">
+  <ul>
     <li>cd Servidor -> (entra na pasta do servidor)</li>
     <li>cd RepositorioDoBem -> (entra no servidor)</li>
-    <img src="./images/comandosDeLocalizacao.png" style="display:block;margin:auto;">
+    <img src="./images/comandosDeLocalizacao.png">
     <li>mvn spring-boot:run -> (executa o servidor)</li>
-    <img src="./images/resComandos.png" style="display:block;margin:auto;">
+    <img src="./images/resComandos.png">
   <ul>
 
 </p>
 
-<p style="text-align:center;">Após executar o servidor, abra a pasta "cliente"</p>
-<img src="./images/clienteFolder.png" style="display:block;margin:auto;">
+<p>Após executar o servidor, abra a pasta "cliente"</p>
+<img src="./images/extraido.png">
 
-<p style="text-align:center;">Abra a pasta "Home"</p>
-<img src="./images/homeFolder.png" style="display:block;margin:auto;">
+<p>Abra a pasta "Home"</p>
+<img src="./images/clienteFolder.png">
+
+<p>Execute o arquivo Index.html</p>
+<img src="./images/homePage.png">
+
+
+
+
+
