@@ -37,3 +37,11 @@
 
 
 <h2 style="text-align:center;">INSTALAÇÃO</h2>
+<p>Faça o download</p>
+<img src="./images/download.png">
+
+<p>Extraia os arquivos</p>
+<img src="./images/extrair.png">
+
+<p>Pasta extraida:</p>
+<img src="./images/extraido.png">
